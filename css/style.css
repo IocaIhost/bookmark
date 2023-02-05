@@ -34,6 +34,7 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
     font-size: 16px;
     line-height: 36px;
     letter-spacing: 0.15px;
@@ -146,7 +147,6 @@ select:-webkit-autofill:focus {
 
 /* BUTTON BLUE */
 .button--blue {
-    margin-left: 10px;
     background-color: var(--blue);
     color: #fff;
 }
@@ -249,6 +249,63 @@ select:-webkit-autofill:focus {
     margin-right: auto;
 }
 
+
+/* HERO */
+.hero {
+    padding-top: 66px;
+    padding-bottom: 105px;
+    background-image: url("../img/blue-pill.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 701px) 200px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero__content {
+    position: relative;
+    right: 5px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 540px;
+    padding-top: 70px;
+    margin-right: 60.5px;
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+.hero__info {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.hero__buttons {
+    display: flex;
+}
+
+.hero__buttons-item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.hero__img {
+    width: 578px;
+    height: 385px;
+    object-fit: contain;
+    flex-shrink: 0;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+
+}
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
