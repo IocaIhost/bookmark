@@ -102,6 +102,75 @@ select:-webkit-autofill:focus {
 }
 
 
+/* BUTTON */
+.button {
+    display: inline-block;
+    padding: 8px 22px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button:active {
+    opacity: 0.6;
+}
+
+
+/* BUTTON RED */
+.button--red {
+    background-color: var(--red);
+    color: #fff;
+}
+
+.button--red:hover {
+    background-color: #fff;
+    color: var(--red);
+    border: 2px solid var(--red);
+}
+
+.button--site-header{
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    padding: 11px 33px;
+}
+
+
+/* BUTTON BLUE */
+.button--blue {
+    margin-left: 10px;
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.button--blue:hover {
+    background-color: #fff;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+
+/* BUTTON GREY */
+.button--grey {
+    background-color: var(--grey);
+    color: var(--title-color);
+}
+
+.button--grey:hover {
+    background-color: #fff;
+    color: var(--title-color);
+    border: 2px solid var(--title-color);
+}
+
+.button--block{
+    width: 100%;
+}
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
