@@ -255,14 +255,14 @@ select:-webkit-autofill:focus {
     font-size: 32px;
     line-height: 52px;
     font-weight: 500;
-    color: var(--text-color50);
+    color: var(--text-color);
 }
 
 .section__desription {
     margin: 0;
     font-size: 18px;
     line-height: 28px;
-    color: var(--text-color);
+    color: var(--text-color50);
 }
 
 
