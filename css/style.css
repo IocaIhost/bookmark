@@ -1,9 +1,11 @@
 :root{
-    --text-color: '';
-    --bg-color: '';
+    --blue: #5267df;
+    --red: #fa5959;
+    --title-color: #242a45;
+    --text-color: #9194a2;
+    --bg-color: #fff;
     --body-font-family: "Rubik", "Arial", sans-serif;
-    --primary-color: '';
-    --primary-heading: '';
+
 }
 
 html{
