@@ -460,6 +460,9 @@ select:-webkit-autofill:focus {
     margin: 0;
 }
 
+.accordion__item-text:not(:last-child) {
+    margin-bottom: 20;
+}
 
 /* SITE HEADER */
 .site-header {
