@@ -1,7 +1,7 @@
 :root{
     --text-color: '';
     --bg-color: '';
-    --body-font-family: "Arial", sans-serif;
+    --body-font-family: "Rubik", "Arial", sans-serif;
     --primary-color: '';
     --primary-heading: '';
 }
@@ -32,10 +32,12 @@ body{
     padding: 0;
     margin: 0;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 36px;
+    letter-spacing: 0.15px;
     font-family: var(--body-font-family);
     background-color: var(--bg-color);
     color: var(--text-color);
+
 }
 
 img{
