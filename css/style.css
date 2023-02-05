@@ -234,6 +234,22 @@ select:-webkit-autofill:focus {
 }
 
 
+/* SITE HEADER */
+.site-header {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.site-header__container {
+    display: flex;
+    align-items: center;
+}
+
+.site-header__logo {
+    margin-right: auto;
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
