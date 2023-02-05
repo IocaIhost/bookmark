@@ -620,7 +620,7 @@ select:-webkit-autofill:focus {
 /* FAQ */
 .faq{
     padding-top: 150px;
-    padding-bottom: 15px;
+    padding-bottom: 158px;
 }
 
 .faq__inner{
@@ -636,6 +636,102 @@ select:-webkit-autofill:focus {
 .faq__accordion{
     width: 100%;
     margin-bottom: 54px;
+}
+
+
+/* SUBSCRIPTION */
+.subscription {
+    padding-top: 55px;
+    padding-bottom: 74px;
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.subscription__inner{
+    max-width: 446px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.subscription__count-text {
+    font-size: 13px;
+    line-height: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.subscription__heading {
+    margin-top: 0;
+    margin-bottom: 36px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.subsription__form {
+    display: flex;
+}
+
+.subsription__field-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    margin-right: 16px;
+}
+
+.subscription__field{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+.subscription__field:not(:focus):not(:placeholder-shown):invalid {
+    border-color: var(--red);
+    padding-right: 45px;
+    background-image: url("../img/error.svg");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+}
+
+
+.subscription__error {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: calc(100% - 4px);
+    width: 100%;
+    display: none;
+    padding: 6px 12px;
+    border-radius: 0 0 5px 5px;
+    background-color: var(--red);
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: left;
+}
+
+.subscription__field:not(:focus):not(:placeholder-shown):invalid ~ .subscription__error {
+    display: block;
+}
+
+.subscription__field:focus + .validation-error,
+.subscription__field:valid + .validation-error,
+.subscription__field:placeholder-shown + .validation-error {
+    display: none;
 }
 
 @media
