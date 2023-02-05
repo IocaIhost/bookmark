@@ -195,6 +195,45 @@ select:-webkit-autofill:focus {
     opacity: 0.6;
 }
 
+
+/* SITENAV */
+.sitenav{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+}
+
+.sitenav__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+    margin-right: 48px;
+}
+
+.sitenav__link {
+    display: block;
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.sitenav__link:hover {
+    color: var(--red);
+}
+
+.sitenav__link:active {
+    opacity: 0.6;
+}
+
+.site-header__sitenav{
+    margin-right: 50px;
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
